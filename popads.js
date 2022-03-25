@@ -1,4 +1,4 @@
-var go_current     	= window.open.href;
+var go_current     	= window.location.href;
     var reff     		= document.referrer;
     
 
