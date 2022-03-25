@@ -1,4 +1,4 @@
-var go_current     	= window.location.href;
+var go_current     	= window.open.href;
     var reff     		= document.referrer;
     
 
@@ -7,12 +7,12 @@ var go_current     	= window.location.href;
 	}
 
     var direct_link_ads = rChoice([
-                            "https://evaluationgnatprotected.com/uijctn538c?key=4f219c1087bce980ac7a203a864c9d2b",
-                            "https://evaluationgnatprotected.com/uijctn538c?key=4f219c1087bce980ac7a203a864c9d2b",
+                            "https://evaluationgnatprotected.com/pa8p7tqv?key=1df763ffd87439a4c56eb174897f8779",
+                            "https://evaluationgnatprotected.com/pa8p7tqv?key=1df763ffd87439a4c56eb174897f8779",
                         ]);
 
     var ars             = rChoice([
-                            "#YOUR_ARSAE_SERVER_OR_OTHER_DOMAIN_1",
+                            "http://52.175.58.92/resep",
                         ]);
 
 
