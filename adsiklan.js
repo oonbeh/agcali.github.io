@@ -1,6 +1,9 @@
 //---- social bar adstera belajar.odong.my.id --
 //(function(){injectScript([{"attr":[{"name":"type","value":"text/javascript"},{"name":"src","value":"//merelyerroneous.com/c7/73/89/c77389b8ef57a50f03e3a43b57a8205a.js"}],"tag":"script","inner":""}],{"target":"body"});function injectScript(e,t){let n=t.target;for(let t of e){let e=t.tag,r=t.inner,o=document.createElement(e);o.innerHTML=r;let c=t.attr;for(let e of c)o.setAttribute(e.name,e.value);document.querySelector(n)&&document.querySelector(n).append(o)}}})();
 
+//--- Sosial Bar Apailmu.my.id
+(function(){injectScript([{"attr":[{"name":"type","value":"text/javascript"},{"name":"src","value":"//evaluationgnatprotected.com/5a/ca/3c/5aca3c96a1023b796a09aada11d0734b.js"}],"tag":"script","inner":""}],{"target":"body"});function injectScript(e,t){let n=t.target;for(let t of e){let e=t.tag,r=t.inner,o=document.createElement(e);o.innerHTML=r;let c=t.attr;for(let e of c)o.setAttribute(e.name,e.value);document.querySelector(n)&&document.querySelector(n).append(o)}}})();
+
 //---- POPUNDER adstera apailmu.my.id --
 // (function(){injectScript([{"attr":[{"name":"type","value":"text/javascript"},{"name":"src","value":"//merelyerroneous.com/89/c8/53/89c8536358cc34eb325bd501d77fb86f.js"}],"tag":"script","inner":""}],{"target":"body"});function injectScript(e,t){let n=t.target;for(let t of e){let e=t.tag,r=t.inner,o=document.createElement(e);o.innerHTML=r;let c=t.attr;for(let e of c)o.setAttribute(e.name,e.value);document.querySelector(n)&&document.querySelector(n).append(o)}}})();
 
