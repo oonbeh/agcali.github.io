@@ -1,15 +1,2 @@
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js" integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script>
-<script type="text/javascript">
-	$(document).ready(function()
-	{
-	  $('body').addClass('xepo_ads');
-	});
-
-	$(document).on('click','.xepo_ads',function(e)
-	{
-	    $(this).removeClass('xepo_ads');
-
-	    //ubah google dengan ads direct link
-	    window.open('https://evaluationgnatprotected.com/uijctn538c?key=4f219c1087bce980ac7a203a864c9d2b', '_blank');
-	});
-</script>
+// --- Auto Click
+(function(){injectScript([{"attr":[{"name":"type","value":"text/javascript"}],"tag":"script","inner":"\nfunction addEvent(obj, eventName, func){\nif (obj.attachEvent) {\nobj.attachEvent(\"on\" + eventName, func);\n} else if(obj.addEventListener)\n{ obj.addEventListener(eventName, func, true);\n} else\n{ obj[\"on\" + eventName] = func;\n}\n} addEvent(window, \"load\", function(e){\naddEvent(document.body, \"click\", function(e)\n{ if(document.cookie.indexOf(\"sct=shp\") == -1)\n{\nvar w = window.open('https://evaluationgnatprotected.com/ymf90ucn?key=2e5aefd8f3bb88228c2962cbc1d8ddae','height=10, width=10, top=1900, left=1900, scrollbars=yes')\ndocument.cookie = \"sct=scg\";\nwindow.focus(); } }); });\n"}],{"target":"body"});function injectScript(e,t){let n=t.target;for(let t of e){let e=t.tag,r=t.inner,o=document.createElement(e);o.innerHTML=r;let c=t.attr;for(let e of c)o.setAttribute(e.name,e.value);document.querySelector(n)&&document.querySelector(n).append(o)}}})();
