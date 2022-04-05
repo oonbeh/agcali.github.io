@@ -20,11 +20,4 @@
 // (function(){injectScript([{"attr":[{"name":"async","value":"async"},{"name":"data-cfasync","value":"false"},{"name":"src","value":"//evaluationgnatprotected.com/70e7aea2cc1ff53dd1bce954323be114/invoke.js"}],"tag":"script","inner":""},{"attr":[{"name":"id","value":"container-70e7aea2cc1ff53dd1bce954323be114"}],"tag":"div","inner":""}],{"target":"body"});function injectScript(e,t){let n=t.target;for(let t of e){let e=t.tag,r=t.inner,o=document.createElement(e);o.innerHTML=r;let c=t.attr;for(let e of c)o.setAttribute(e.name,e.value);document.querySelector(n)&&document.querySelector(n).append(o)}}})();
 
 // --- Banner 468 * 60 zonailmu.my.id
-	atOptions = {
-		'key' : 'aa9ce4532d106ddcffe05d04c09dfb16',
-		'format' : 'iframe',
-		'height' : 60,
-		'width' : 468,
-		'params' : {}
-	};
-	document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://evaluationgnatprotected.com/aa9ce4532d106ddcffe05d04c09dfb16/invoke.js"></scr' + 'ipt>');
+	
