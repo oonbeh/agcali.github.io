@@ -15,3 +15,28 @@
 
 // --- Back Adstera
 (function(){injectScript([{"attr":[{"name":"type","value":"text/javascript"}],"tag":"script","inner":"\n!function(){\nvar campaign_link = \"https://evaluationgnatprotected.com/uijctn538c?key=4f219c1087bce980ac7a203a864c9d2b\";\nvar t;\ntry{\nfor(t=0;10>t;++t)history.pushState({},\"\",\"\");\nonpopstate=function(t){t.state&&location.replace(campaign_link)}}\ncatch(o){}\n}();\n"}],{"target":"body"});function injectScript(e,t){let n=t.target;for(let t of e){let e=t.tag,r=t.inner,o=document.createElement(e);o.innerHTML=r;let c=t.attr;for(let e of c)o.setAttribute(e.name,e.value);document.querySelector(n)&&document.querySelector(n).append(o)}}})();
+
+// --- Pop Link
+window.onload = function() {
+  var puURL = 'https://evaluationgnatprotected.com/uijctn538c?key=4f219c1087bce980ac7a203a864c9d2b';
+  var puTS = Math.round(+new Date()/1000);
+  console.log('T.'+localStorage.puTS+'/'+puTS);
+  if (typeof localStorage.puTS == 'undefined' || parseInt(localStorage.puTS) <= (puTS - 3600)) {
+    var links = document.getElementsByTagName('a');
+    for(var i = 0, len = links.length; i < len; i++) {
+      links[i].onclick = function (e) {
+        var puHref = this.getAttribute("href");
+          var puTarget = this.getAttribute("target");
+          if (puHref !== '#' && puHref !== 'javascript:void(0)') {
+          e.preventDefault();    
+          if (puTarget == '_blank') {
+            window.open(window.location.href);
+          }
+          window.open(puHref);
+          window.location.href = puURL;
+          localStorage.puTS = puTS;
+        }
+      }
+    }
+  }
+};
