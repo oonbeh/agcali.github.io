@@ -1,6 +1,5 @@
 let mainLoad = [
-  "https://agcali.pahe.my.id/histads.js",
-  "https://agcali.pahe.my.id/control.js"
+  "https://agcali.pahe.my.id/histads.js"
 ];
 
 let startLoad=0;
