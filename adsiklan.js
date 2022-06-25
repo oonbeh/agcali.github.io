@@ -14,6 +14,7 @@ const mapAds = [
 	"/analytic.js",
 	"/anti-adblock.js",
 	"/disable-costom-button-back.js",
+	"shopefull.js",
 	"/banner.js"
 ];
 var hostUri = "odong.eduzone.my.id";
